@@ -1,0 +1,10 @@
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome";
+
+header {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}

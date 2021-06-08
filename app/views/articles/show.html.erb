@@ -1,0 +1,11 @@
+<div class="d-flex align-items-center mt-3">
+  <h1 class="mr-3"><%= @article.title %></h1>
+  <%= link_to edit_article_path do %>
+    <i class="fas fa-pencil-alt mr-3"></i>
+  <% end %>
+  <%= link_to article_path, method: :delete do %>
+    <i class="far fa-trash-alt"></i>
+  <% end %>
+</div>
+<img src="<%= @img %>" alt=''>
+<p><%= @article.content %></p>
